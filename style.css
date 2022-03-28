@@ -1,0 +1,165 @@
+*
+{
+font-family: "Red Hat Display", sans-serif;
+padding: 0;
+margin: 0;
+border:0;
+}
+body {
+  background-color: hsl(225, 100%, 94%);
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  display:flex;
+  align-items: center;
+  height:100vh;
+  justify-content:center;
+  }
+.card
+{
+height:max-content;
+width:360px;
+box-shadow: 0 18px 25px hsl(224deg 23% 81%);
+background-color: hsl(0,0%,100%);
+height:560px;
+border-radius:20px;
+}
+.image
+{
+display:flex;
+
+}
+.image img
+{
+width:360px;
+height:184.545;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.header
+{
+text-align:center;
+margin-top:30px;
+}
+.header h2
+{
+font-weight:900;
+}
+.content
+{
+margin-top:10px;
+margin-left:25px;
+margin-right:25px;
+text-align:center;
+line-height:1.5em;
+}
+.content p
+{
+font-weight:500;
+font-size: 14px;
+}
+.annual
+{
+background-color: hsl(225, 100%, 98%);
+  width: 275px;
+  height: 80px;
+  border-radius: 10px;
+  margin: 18px auto;
+}
+.music img
+{
+margin:18px;
+width: 40px;
+height: 40px;
+}
+.annualplan
+{
+margin-top:-65px;
+margin-left:70px;
+
+}
+.annualplan h5
+{
+font-weight:900;
+}
+.charge
+{
+margin-left:70px;
+margin-top:5px;
+font-size:14px;
+}
+.charge p
+{
+font-size:13px;
+font-weight:500;
+color: hsl(224, 23%, 55%);
+}
+.change
+{
+margin-left:200px;
+margin-top:-26px;
+}
+.change a
+{
+font-size:12px;
+font-weight:900;
+}
+.button1
+{
+margin:18px auto;
+margin-top:25px;
+background-color:hsl(245, 75%, 52%);
+height:40px;
+width:275px;
+border-radius:10px;
+box-shadow: 0px 12px 20px hsl(227deg 6% 68% / 58%);
+}
+.button1 p
+{
+padding:10px;
+text-align:center;
+color:#fff;
+}
+.button2
+{
+text-align:center;
+margin-top:25px;
+}
+.button2 p
+{
+font-weight:900;
+font-size:12px;
+color: hsl(224, 23%, 55%);
+}
+.change a:hover
+{
+  color: hsl(245, 62%, 63%);
+  text-decoration: none;
+}
+.button1 p:hover
+{
+  cursor: pointer;
+  background-color: hsl(245, 62%, 63%);
+}
+.button2 p:hover
+{
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+@media (max-width: 500px)
+{
+  body
+  {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: 375px 230px;
+    overflow: hidden;
+  }
+  .card
+  {
+    max-width: 325px;
+  }
+  .image img
+   {
+    max-width: 325px;
+  }
+}
